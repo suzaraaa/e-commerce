@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASICS Philippines Official Site</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="container">
+                <nav class="top-nav">
+                    <a href="myacc.html">
+                        <img src="acc.png" alt="Account" class="account-icon">
+                        My Account
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="main-header">
+                <div class="logo">
+                    <img src="logo.png" alt="ASICS Logo" width="80" height="40">
+                </div>
+
+                <nav class="main-nav">
+                    <a href="/mens">Mens</a>
+                    <a href="/womens">Womens</a>
+                    <a href="/sale" class="sale">SALE</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="search" placeholder="Search ASICS.com">
+                        <button type="button" class="search-btn">
+                            <img src="search.png" alt="Search">
+                        </button>
+                    </div>
+                    <button class="icon-btn wishlist">
+                        <a href="wishlist.html">
+                        <img src="heart.png" alt="Wishlist">
+                        <span class="badge wishlist-count">0</span>
+                        </a>
+                    </button>
+                    <button class="icon-btn cart">
+                        <a href="cart.html">
+                        <img src="cart.png" alt="Cart">
+                        <span class="badge cart-count">0</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="up.gif" alt="ASICS LITE-SHOW Collection" class="hero-image">
+        </section>
+        <section class="new-arrivals">
+            <div class="container">
+                <h2>NEW ARRIVALS</h2>
+                <div class="product-grid">
+                    <article class="product-card" data-product-id="gt-2000-13" data-name="GT-2000 13" data-description="A great running shoe" data-price="₱9490" data-image="GT-2000 13.png">
+                        <div class="product-image">
+                            <span class="badge">NEW</span>
+                            <img src="GT-2000 13.png" alt="GT-2000™ 13">
+                        </div>
+                        <div class="product-info">
+                            <h3>GT-2000 13</h3>
+                            <div class="product-actions">
+                            <p class="price">₱9,490.00</p>
+                            <div class="action-buttons">
+                                <button class="icon-btn wishlist-btn" aria-label="Add to wishlist" onclick="addToWishlist('gt-2000-13')">
+                                    <img src="heart.png" alt="Wishlist">
+                                </button>
+                                <button class="icon-btn cart-btn" aria-label="Add to cart" onclick="addToCart('gt-2000-13')">
+                                    <img src="cart.png" alt="Cart">
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="gt-2000-13 TR" data-name="GT-2000 13 TR" data-description="A great running shoe" data-price="₱9490" data-image="GT-2000 13 TR.png">
+                        <div class="product-image">
+                            <span class="badge">NEW</span>
+                            <img src="GT-2000 13 TR.png" alt="GT-2000™ 13 TR">
+                        </div>
+                        <div class="product-info">
+                            <h3>GT-2000 13 TR</h3>
+                            <div class="product-actions">
+                            <p class="price">₱9,490.00</p>
+                            <div class="action-buttons">
+                                <button class="icon-btn wishlist-btn" aria-label="Add to wishlist" onclick="addToWishlist('gt-2000-13 TR')">
+                                    <img src="heart.png" alt="Wishlist">
+                                </button>
+                                <button class="icon-btn cart-btn" aria-label="Add to cart" onclick="addToCart('gt-2000-13 TR')">
+                                    <img src="cart.png" alt="Cart">
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                     </article>
+                    <article class="product-card" data-product-id="gel-cumulus-26" data-name="GEL-CUMULUS 26 LITE-SHOW" data-description="A great running shoe" data-price="₱9490" data-image="GEL-CUMULUS 26 LITE-SHOW.png">
+                        <div class="product-image">
+                            <span class="badge">NEW</span>
+                            <img src="GEL-CUMULUS 26 LITE-SHOW.png" alt="GEL-CUMULUS™ 26 LITE-SHOW">
+                        </div>
+                        <div class="product-info">
+                            <h3>GEL-CUMULUS 26 LITE-SHOW</h3>
+                            <div class="product-actions">
+                            <p class="price">₱9,490.00</p>
+                            <div class="action-buttons">
+                                <button class="icon-btn wishlist-btn" aria-label="Add to wishlist" onclick="addToWishlist('gel-cumulus-26')">
+                                    <img src="heart.png" alt="Wishlist">
+                                </button>
+                                <button class="icon-btn cart-btn" aria-label="Add to cart" onclick="addToCart('gel-cumulus-26')">
+                                    <img src="cart.png" alt="Cart">
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card" data-product-id="gel-kayano-31" data-name="GEL-KAYANO 31 LITE-SHOW" data-description="A great running shoe" data-price="₱11490" data-image="GEL-KAYANO 31 LITE-SHOW.png">
+                        <div class="product-image">
+                            <span class="badge">NEW</span>
+                            <img src="GEL-KAYANO 31 LITE-SHOW.png" alt="GEL-KAYANO™ 31 LITE-SHOW">
+                            </div>
+                        <div class="product-info">
+                            <h3>GEL-KAYANO 31 LITE-SHOW</h3>
+                            <p class="price">₱11,490.00</p>
+                            <div class="action-buttons">
+                                <button class="icon-btn wishlist-btn" aria-label="Add to wishlist" onclick="addToWishlist('gel-kayano-31')">
+                                    <img src="heart.png" alt="Wishlist">
+                                </button>
+                                <button class="icon-btn cart-btn" aria-label="Add to cart" onclick="addToCart('gel-kayano-31')">
+                                    <img src="cart.png" alt="Cart">
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="ecommerce.js"></script>
+    <script>
+        let wishlist = [];
+        let cart = [];
+
+        function updateWishlistCount() {
+            document.querySelector('.wishlist-count').textContent = wishlist.length;
+        }
+
+        function updateCartCount() {
+            document.querySelector('.cart-count').textContent = cart.length;
+        }
+
+        function addToWishlist(productId) {
+            if (!wishlist.includes(productId)) {
+                wishlist.push(productId);
+                document.querySelector(`[data-product-id="${productId}"] .wishlist-btn img`).src = 'heart-filled.png';
+            } else {
+                wishlist = wishlist.filter(id => id !== productId);
+                document.querySelector(`[data-product-id="${productId}"] .wishlist-btn img`).src = 'heart.png';
+            }
+            updateWishlistCount();
+            updateWishlistHTML();
+        }
+
+        function addToCart(productId) {
+            if (!cart.includes(productId)) {
+                cart.push(productId);
+                document.querySelector(`[data-product-id="${productId}"] .cart-btn img`).src = 'cart-filled.png';
+            } else {
+                cart = cart.filter(id => id !== productId);
+                document.querySelector(`[data-product-id="${productId}"] .cart-btn img`).src = 'cart.png';
+            }
+            updateCartCount();
+            updateCartHTML();
+        }
+
+        function updateWishlistHTML() {
+            const wishlistContainer = document.getElementById('wishlist-container');
+            wishlistContainer.innerHTML = '';
+            wishlist.forEach(productId => {
+                const productCard = document.querySelector(`[data-product-id="${productId}"]`).cloneNode(true);
+                productCard.querySelector('.wishlist-btn').remove();
+                productCard.querySelector('.cart-btn').remove();
+                const removeBtn = document.createElement('button');
+                removeBtn.textContent = 'Remove';
+                removeBtn.onclick = () => {
+                    addToWishlist(productId);
+                };
+                productCard.querySelector('.product-actions').appendChild(removeBtn);
+                wishlistContainer.appendChild(productCard);
+            });
+        }
+
+        function updateCartHTML() {
+            const cartContainer = document.getElementById('cart-items');
+            cartContainer.innerHTML = '';
+            cart.forEach(productId => {
+                const productCard = document.querySelector(`[data-product-id="${productId}"]`).cloneNode(true);
+                productCard.querySelector('.wishlist-btn').remove();
+                productCard.querySelector('.cart-btn').remove();
+                const removeBtn = document.createElement('button');
+                removeBtn.textContent = 'Remove';
+                removeBtn.onclick = () => {
+                    addToCart(productId);
+                };
+                productCard.querySelector('.product-actions').appendChild(removeBtn);
+                cartContainer.appendChild(productCard);
+            });
+            updateCartSummary();
+        }
+
+        function updateCartSummary() {
+            const subtotal = cart.reduce((total, productId) => {
+                const price = parseFloat(document.querySelector(`[data-product-id="${productId}"] .price`).textContent.replace('₱', '').replace(',', ''));
+                return total + price;
+            }, 0);
+            document.getElementById('subtotal').textContent = `₱${subtotal.toFixed(2)}`;
+            document.getElementById('total').textContent = `₱${subtotal.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASICS Wishlist</title>
+    <link rel="stylesheet" href="ecommerce.css">
+    <link rel="stylesheet" href="wishlist.css">
+</head>
+<body>
+    <header class="site-header">
+            <div class="top-bar">
+                <div class="container">
+                    <nav class="top-nav">
+                        <a href="myacc.html">
+                            <img src="acc.png" alt="Account" class="account-icon">
+                            My Account
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            <div class="container">
+                <div class="main-header">
+                    <div class="logo">
+                        <a href="ecommerce.html"><img src="logo.png" alt="ASICS Logo" width="80" height="40"></a>
+                    </div>
+    
+                    <nav class="main-nav">
+                        <a href="/mens">Mens</a>
+                        <a href="/womens">Womens</a>
+                        <a href="/sale" class="sale">SALE</a>
+                    </nav>
+                    <div class="header-actions">
+                        <div class="search-box">
+                            <input type="search" placeholder="Search ASICS.com">
+                            <button type="button" class="search-btn">
+                                <img src="search.png" alt="Search">
+                            </button>
+                        </div>
+                        <button class="icon-btn wishlist">
+                            <a href="wishlist.html">
+                            <img src="heart.png" alt="Wishlist">
+                            <span class="badge wishlist-count">0</span>
+                            </a>
+                        </button>
+                        <button class="icon-btn cart">
+                            <a href="cart.html">
+                            <img src="cart.png" alt="Cart">
+                            <span class="badge cart-count">0</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="container">
+        <h1 class="wishlist-title">Your Wishlist</h1>
+        <div id="wishlist-items" class="wishlist-items-container">
+            <!-- Items will be rendered here -->
+        </div>
+    </main>
+
+    <script src="wishlist.js"></script>
+    <script src="ecommerce.js"></script>
+</body>
+</html>
+

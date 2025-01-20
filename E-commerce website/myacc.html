@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account Login | ASICS Philippines</title>
+    <link rel="stylesheet" href="myacc.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <main class="login-container">
+            <!-- Benefits Banner -->
+            <div class="benefits-banner">
+                <div class="benefit-item">
+                    <span class="checkmark">✓</span>
+                    Fast Shipping & Easy Returns
+                </div>
+                <div class="benefit-item">
+                    <span class="checkmark">✓</span>
+                    Free shipping* on all orders for OneASICS Members
+                </div>
+            </div>
+
+            <h1>My Account Login</h1>
+
+            <div class="login-grid">
+                <!-- Returning Customers -->
+                <section class="login-section">
+                    <h2>Returning Customers</h2>
+                    <p>If you are a registered user, please enter your email and password.</p>
+                    
+                    <form id="loginForm" class="login-form">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div class="form-options">
+                            <label class="remember-me">
+                                <input type="checkbox" name="remember">
+                                <span>Remember Me</span>
+                            </label>
+                            <a href="#" class="forgot-password">Forgot Password?</a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        
+                        <div class="social-login">
+                            <button class="btn btn-google">
+                                <img src="google.png" alt="Google logo" class="google-icon">
+                                Sign in with Google
+                            </button>
+                        </div>
+                    </form>
+                </section>
+
+                <!-- New Customers -->
+                <section class="login-section">
+                    <h2>New Customers</h2>
+                    <p>Create your free account today and start enjoying the benefits of having an account!</p>
+                    
+                    <a href="create.html" class="btn btn-primary">Create Account Now</a>
+
+                    <div class="benefits-list">
+                        <ul>
+                            <li>Faster checkout</li>
+                            <li>Track your orders</li>
+                            <li>Order history</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <script src="myacc.js"></script>
+</body>
+</html>

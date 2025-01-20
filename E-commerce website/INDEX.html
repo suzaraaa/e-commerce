@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - SUZARA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <span class="logo">Portfolio</span>
+                <button class="menu-button" id="menuButton">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="4" y1="12" x2="20" y2="12"></line>
+                        <line x1="4" y1="6" x2="20" y2="6"></line>
+                        <line x1="4" y1="18" x2="20" y2="18"></line>
+                    </svg>
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <button class="nav-item" data-section="home">Home</button>
+                    <button class="nav-item" data-section="about">About</button>
+                    <button class="nav-item" data-section="hobbies">Hobbies</button>
+                    <button class="nav-item" data-section="projects">Projects</button>
+                    <button class="nav-item" data-section="contact">Contact</button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <button class="mobile-nav-item" data-section="home">Home</button>
+            <button class="mobile-nav-item" data-section="about">About</button>
+            <button class="mobile-nav-item" data-section="skills">Skills</button>
+            <button class="mobile-nav-item" data-section="projects">Projects</button>
+            <button class="mobile-nav-item" data-section="contact">Contact</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Jen Suzara Andres</span></h1>
+                    <p>an IT student stuDYING at Lyceum of the Philippines University</p>
+                    <div class="hero-buttons">
+                        <button class="btn primary" onclick="scrollToSection('contact')">Contact Me</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="meprofile.JPEG" alt="Profile" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/placeholder.svg" alt="About" />
+                </div>
+                <div class="about-text">
+                    <p>I'm currently pursuing my studies with a passion for learning and growing every day. My academic journey has been filled with challenges and am always eager to learn new things</p>
+                    <p>About myself is so confusing. I bet some people will agree haha. But yeah, I like to travel and experience adventures but also want to be at home, sleeping haha. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">R</div>
+                    <h3>Reading</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">T</div>
+                    <h3>Travelling</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">E</div>
+                    <h3>Editing</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">S</div>
+                    <h3>Sleeping</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">V</div>
+                    <h3>Volleyball</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">J</div>
+                    <h3>Jogging</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">S</div>
+                    <h3>Shopping</h3>
+                </div>
+                <div class="hobbies-card">
+                    <div class="hobbies-icon">E</div>
+                    <h3>Eating</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Projects Section -->
+     <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="logo.png" alt="Project 1" />
+                    </div>
+                    <div class="project-content">
+                        <h3>Project 1</h3>
+                        <p>A brief description of the project and the technologies used in its development.</p>
+                        <div class="project-buttons">
+                            <a href="ecommerce" class="btn secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                                Code
+                            </a>
+                            <a href="ecommerce.html" class="btn primary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="social-links">
+                        <button class="social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </button>
+                        <button class="social-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </button>
+                    <button class="social-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="currentYear"></span> SUZARA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
